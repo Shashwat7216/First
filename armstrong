@@ -26,8 +26,8 @@ public class Main
 	    System.out.println(count);
 	    while(n>0)
 	    {
-	        n=n%10;
-	        power=Math.pow(n,count);
+	        double rem=n%10;
+	        power=Math.pow(rem,count);
 	        arm=arm+power;
 	        n=n/10;
 	    }
